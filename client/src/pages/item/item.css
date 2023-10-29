@@ -1,0 +1,67 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.itemImg {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  object-fit: cover;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 50px;
+}
+
+.itemCont {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.itemWrap {
+  display: flex;
+  gap: 15px;
+}
+
+.itemColor {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemSize {
+  display: flex;
+  gap: 15px;
+}
+
+.itemButton {
+  width: 230px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.itemButton:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.itemCheckmark {
+  width: 20px;
+  height: 20px;
+}

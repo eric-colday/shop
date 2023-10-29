@@ -1,0 +1,42 @@
+.wrap2 {
+  height: calc(100vh - 100px);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card2 {
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  border: 1px solid #c5d3d6;
+  border-radius: 4px;
+}
+
+.card2:hover {
+  border: 2px solid #008080;
+}
+
+.img2 {
+  width: 260px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 0px 20px 0px;
+}
+
+.productTitle {
+  font-size: 20px;
+}
+
+.productText{
+  font-size: 20px;
+  font-weight: bolder;
+}

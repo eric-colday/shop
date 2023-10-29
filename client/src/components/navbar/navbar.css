@@ -1,0 +1,176 @@
+.containerNavbar {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 3px solid #008080;
+}
+
+.wrapper {
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  text-transform: uppercase;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.language {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.searchContainer {
+  border: 0.5px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+.input {
+  border: none;
+}
+
+.articleBox {
+  width: 300px;
+  height: 300px;
+  margin-top: 9px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  position: absolute;
+  background: white;
+  top: 3rem;
+  z-index: 10;
+}
+
+.navLeft {
+  display: flex;
+  gap: 20px;
+}
+
+.center {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #008080;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menuItem {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menuItem2 {
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.navbar-burger {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  color: inherit;
+  display: none;
+}
+
+.burger {
+  display: none;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  width: 100vw;
+  height: 300vw;
+  position: absolute;
+  left: 0px;
+  padding-top: 16rem;
+}
+
+.hiddenBurger {
+  display: none;
+}
+
+.hiddenCloseIcon {
+  display: none;
+}
+
+.closeIcon {
+  cursor: pointer;
+  z-index: 100;
+  color: #008080;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 890px) {
+
+  .wrapper {
+    padding: 5px 20px;
+    gap: 20px;
+  }
+
+  .burger {
+    display: block;
+    color: #008080;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 18rem;
+  }
+
+  .hiddenBurger {
+    display: none;
+  }
+
+  .closeIcon {
+    cursor: pointer;
+    z-index: 100;
+    color: #008080;
+    font-size: 30px;
+    padding-left: 18rem;
+  }
+
+  .navLeft {
+    display: none;
+  }
+
+  .linksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    height: 400vw;
+    position: absolute;
+    left: 0px;
+    padding-top: 16rem;
+    background: white;
+  }
+}

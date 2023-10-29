@@ -1,0 +1,53 @@
+.categories {
+  height: calc(100vh - 0px);
+  width: 100vw;
+}
+
+.cont {
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+}
+
+.catH2{
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  width: 450px;
+  height: 400px; 
+  padding-left: 46px;
+}
+
+.card {
+  background-size: cover;
+  width: 450px;
+  height: 400px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardInfo {
+  position: relative;
+  bottom: 17rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.cardText{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #008080;
+  text-align: center;
+}
